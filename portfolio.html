@@ -67,7 +67,11 @@
       </div>
       <div class="row">
         <div class="col myCol">
-          <img src="./images/l6bruO.jpeg" class="img-fluid" alt="Home Page" />
+          <img
+            src="./images/portfolio.jpeg"
+            class="img-fluid"
+            alt="Home Page"
+          />
         </div>
       </div>
       <div class="row">
@@ -88,7 +92,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./home.html"
                     >Home</a
                   >
                 </li>
@@ -99,7 +106,7 @@
                   <a class="nav-link" href="./education.html">Education</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./portfolio1.html">Portfolio</a>
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./contact.html">Contact Me</a>
@@ -112,130 +119,83 @@
           </nav>
         </div>
       </div>
-    </div>
 
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active p2">
-          <img
-            src="./images/coding_large_0.jpeg"
-            class="d-block w-100 h-10 height"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item p2">
-          <img
-            src="./images/2.webp"
-            class="d-block w-100 h-10 height"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item p2">
-          <img
-            src="./images/3.jpeg"
-            class="d-block w-100 h-10 height"
-            alt="..."
-          />
-        </div>
-
-        <div class="list-group list list-group-mine">
-          <a
-            href="#"
-            class="list-group-item list-group-item-action flex-column align-items-start active"
-          >
-            <h5 class="mb-1">Who I am?</h5>
-          </a>
-        </div>
-
-        <div class="list-group list list-group-mine">
-          <a
-            href="#"
-            class="list-group-item list-group-item-action flex-column align-items-start active"
-          >
-            <p class="mb-1">Web Developer with 2 years of experience.</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action flex-column align-items-start active"
-          >
-            <p class="mb-1">
-              Specializing in Front and Back End technologies.
-            </p> </a
-          ><a
-            href="#"
-            class="list-group-item list-group-item-action flex-column align-items-start active"
-          >
-            <p class="mb-1">Front End Tech: ReactJS, JavaScript, TypeScript.</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action flex-column align-items-start active"
-          >
-            <p class="mb-1">Back End Tech: Express, Node, Java.</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action flex-column align-items-start active"
-          >
-            <p class="mb-1">Proficient in UI Design.</p>
-          </a>
-          <!-- <a
-            href="#"
-            class="list-group-item list-group-item-action flex-column align-items-start active"
-          >
-            <p class="mb-1">
-              Six Years of Experience in Video Editing & Color Grading.
-            </p>
-          </a> -->
-        </div>
-      </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <table class="table caption-top">
+        <caption>
+          List of Projects
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Project Name</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>React Front to Back Project</td>
+            <td>
+              It is Full stack MERN application with a custom Express backend
+              API that uses JWT (JSON Web Token) for authentication (ReactJS,
+              MongoDB, Express, Node, Postman).
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Person Info (J2EE)</td>
+            <td>
+              Project uses Hibernate mapping Single Table (Inheritance,
+              Polymorphism) to register users depending on the Person_Type, such
+              as students or employers.
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Coder5 (HTML, CSS, and jQuery)</td>
+            <td>
+              The home page was developed with jQuery for image slideshows, the
+              login and registration pages with JavaScript for validation, and
+              bio page with JavaScript to create simple carousel slides.
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>ThreeGuys (J2EE, SOAP)</td>
+            <td>
+              A web services project that lets users to add feedback about
+              specific cars, so users can add a review, or rating for a specific
+              car (Persistence, JSPs, Servlets, JAXWS, MySQL, AWS, WSDLs).
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Chat App (Swift, Firestore)</td>
+            <td>
+              Developed user login, registration, forgot password, email
+              verification, validation, Firestore connection, & application
+              design using Adobe XD and Zeplin.
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Bank Account (PHP)</td>
+            <td>
+              Bank Account (PHP) Developed a web app to manage user accounts by
+              importing their information through a CSV file and displaying it
+              on a CSS table (NetBeans, PHP MySQL, XAMPP).
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>ASP.NET MVC5 Project</td>
+            <td>
+              Library and Shopping Cart with PayPal: It is a ASP.NET Framework
+              project that uses Entity Framework and Bootstrap.
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <footer class="bg-dark text-center text-white">
