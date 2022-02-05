@@ -4,7 +4,7 @@
 
 ## Description
 
-It's Portfolio Pages that describes all the experience I have done in IT.
+Home, Experience, Education, Portfolio, and Contact me pages.
 
 ## Used
 
@@ -14,7 +14,7 @@ It's Portfolio Pages that describes all the experience I have done in IT.
 
 - Bootstrap
 
-- Grid => all pages are responsive on mobile and desktop.
+- Grid => all pages are responsive on mobile phones and desktop.
 
 ## **Home Page**
 
