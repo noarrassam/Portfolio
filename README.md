@@ -1,63 +1,41 @@
 # Name: Noar Rassam
 
-# Computer Crew - Mern Stack Project
-
-# Deployment Link:
-
-- https://stormy-dusk-51591.herokuapp.com/
+# My Portfolio
 
 ## Description
 
-It's Full stack MERN application with a custom Express backend API that uses JWT (JSON Web Token) for authentication.
+It's Portfolio Pages that describes all the experience I have done in IT.
 
 ## Used
 
-- React Fundamentals (Components, props, state, etc).
+- HTML
 
-- React Hooks (useState, useEffect, useContext, useReducer, useRef).
+- CSS
 
-- Context API & App Level State.
+- Bootstrap
 
-- MERN - MongoDB, Express React, Node.
+- Grid => all pages are responsive on mobile and desktop.
 
-- Custom API With JWT Authentication.
+## **Home Page**
 
-- Full Calendar.
+![![Home]()](https://github.com/noarrassam/Portfolio/blob/master/images/Screenshots/Home.png)
 
-## Features
+## **Experience**
 
-1. Login & Registration.
-2. Manage Contact Lists.
-3. Full Calendar.
-
-## References
-
-- Traversy, B. 2021. Project 2 Start [Contact Keeper - MERN] & Express Server Setup [React Front To Back](https://www.udemy.com/course/modern-react-front-to-back/).
-
-## **Login**
-
-![![Login]()](https://github.com/noarrassam/MernStack-Login-Contacts-Calendar/blob/master/images/1.JPG)
-
-## **Registration**
-
-![![Registration]()](https://github.com/noarrassam/MernStack-Login-Contacts-Calendar/blob/master/images/2.JPG)
+![![Experience]()](https://github.com/noarrassam/Portfolio/blob/master/images/Screenshots/Experience.png)
 
 ## **Add Contacts**
 
 ![![Add Contacts]()](https://github.com/noarrassam/MernStack-Login-Contacts-Calendar/blob/master/images/3.JPG)
 
-## **Contacts**
+## **Education**
 
-![![Contacts]()](https://github.com/noarrassam/MernStack-Login-Contacts-Calendar/blob/master/images/6.JPG)
+![![Education]()](https://github.com/noarrassam/Portfolio/blob/master/images/Screenshots/Education.png)
 
-## **Calendar**
+## **Portfolio**
 
-![![Calendar]()](https://github.com/noarrassam/MernStack-Login-Contacts-Calendar/blob/master/images/7.JPG)
+![![Portfolio]()](https://github.com/noarrassam/Portfolio/blob/master/images/Screenshots/Portfolio.png)
 
-## **Add Events**
+## **Contact**
 
-![![Add Events]()](https://github.com/noarrassam/MernStack-Login-Contacts-Calendar/blob/master/images/8.JPG)
-
-## **Calendar Events**
-
-![![Calendar Events]()](https://github.com/noarrassam/MernStack-Login-Contacts-Calendar/blob/master/images/9.JPG)
+![![Contact]()](https://github.com/noarrassam/Portfolio/blob/master/images/Screenshots/Contact.png)
